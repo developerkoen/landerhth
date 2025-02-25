@@ -1,24 +1,64 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lander</title>
-    <link rel="icon" href="logo-transparent.png" type="image/x-icon">
-    <link rel="stylesheet" href="styles.css">
-</head>
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
-<header>
-    <img src="logo-transparent.png" class="logo">
-</header>
-<body>
-    <h1 class="textmargin">How to Hack</h1>
-    <p class="textmargin">Welkom op deze overzichtspagina. Kies hieronder naar welke website u wilt doorgaan!</p>
-    <a href="https://howtohack.nl" class="linkbutton">How to Hack</a>
-    <a href="https://netwise.howtohack.nl" class="linkbutton">Netwise</a>
-    <a href="https://edu.netwise.howtohack.nl" class="linkbutton">Netwise Educatie</a>
-</body>
-<footer>
-    <p>© 2025 How to Hack - Alle rechten voorbehouden</p>
-</footer>
-</html>
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.textmargin {
+    margin: 5px;
+}
+
+.linkbutton {
+    background-color: black; /* Achtergrondkleur van de knop */
+    border: none; /* Geen rand */
+    color: #41ff00; /* Tekstkleur */
+    cursor: pointer; /* Cursor verandert naar pointer */
+    height: 40px; /* Hoogte van de knop */
+    width: 200px; /* Breedte van de knop */
+    margin: 5px; /* Marges rondom de knop */
+    font-family: 'Source Code Pro', monospace; /* Gebruik het lettertype */
+    font-weight: bold; /* Maak de tekst vetgedrukt */
+    text-align: center; /* Tekst centreren */
+    display: flex; /* Flexbox gebruiken */
+    align-items: center; /* Verticaal centreren */
+    justify-content: center; /* Horizontaal centreren */
+    text-decoration: none; /* Geen onderstreping */
+    transition: background-color 0.3s, color 0.3s; /* Voeg een overgangseffect toe */
+}
+
+.linkbutton:hover {
+    background-color: #41ff00; /* Achtergrondkleur bij hover */
+    color: black; /* Tekstkleur bij hover */
+}
+
+footer {
+    background-color: black;
+    color: #41ff00; /* Tekstkleur */
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace; /* Gebruik het lettertype */
+    font-weight: bold; /* Maak de tekst vetgedrukt */
+    text-align: center; /* Tekst centreren */
+    margin-top: auto; /* Zorg ervoor dat de footer onderaan komt */
+}
+
+header {
+    background-color: black;
+    color: #41ff00; /* Tekstkleur */
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace; /* Gebruik het lettertype */
+    font-weight: bold; /* Maak de tekst vetgedrukt */
+    text-align: center; /* Tekst centreren */
+}
+
+.logo {
+    width: 100px; /* Breedte van het logo */
+    height: auto; /* Hoogte automatisch aanpassen */
+    margin-right: 20px; /* Ruimte tussen logo en titel */
+}
