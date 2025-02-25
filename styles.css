@@ -6,7 +6,7 @@
     color: #41ff00; /* Tekstkleur */
     cursor: pointer; /* Cursor verandert naar pointer */
     height: 40px; /* Hoogte van de knop */
-    width: 200; /* Breedte van de knop */
+    width: 200px; /* Breedte van de knop */
     margin: 5px; /* Marges rondom de knop */
     font-family: 'Source Code Pro', monospace; /* Gebruik het lettertype */
     font-weight: bold; /* Maak de tekst vetgedrukt */
